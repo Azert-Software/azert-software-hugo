@@ -1,0 +1,5 @@
+{{ if .IsPage }}
+<h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
+{{ else }}
+<h2><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h2>
+{{ end }}

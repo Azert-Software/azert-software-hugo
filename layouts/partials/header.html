@@ -1,0 +1,32 @@
+<!doctype html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>{{ if .IsNode}}{{ .Title }} &middot; {{end}}{{ .Site.Title }}</title>
+        <meta name="azert-software">
+        <meta name="description" content="{{ .Site.Params.site_description }}">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        {{ .Hugo.Generator }}
+        <link href="{{ "post/index.xml" | absURL }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
+        <link href="{{ "post/index.xml" | absURL }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}" />
+        <link href='//fonts.googleapis.com/css?family=Roboto:400,300,700|Noto+Serif:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="{{ "css/styles.css" | absURL }}">
+        <link rel="icon" href="{{ "favicon.ico" | absURL }}">
+        <link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | absURL }}" />
+        <link rel="stylesheet" href="{{ "css/highlightjs/monokai.css" | absURL }}">
+        <link rel="stylesheet" href="{{ "css/site.css" | absURL }}">
+        <script src="{{ "js/vendor/modernizr-2.8.0.min.js" | absURL }}"></script>
+        {{ range .Site.Params.custom_css }}
+        <link rel="stylesheet" href="{{ . | absURL }}">
+        {{ end }}
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <header class="site-header">
+          <div class="transparent-layer">
+              <img src="{{ .Site.Params.header_background | absURL}}" />
+          </div>
+        </header>

@@ -1,0 +1,58 @@
+.sidebar-nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-nav ul li{
+    padding:10px;
+    font-size: 2rem;
+}
+
+.site-header{
+    background:teal;
+}
+
+.site-header .transparent-layer{
+    height: 40vh;
+    max-height:20rem;
+}
+
+.site-header .transparent-layer img{
+    width: 30%;
+}
+
+.category-nav{
+    float:right;
+    width:20%;
+    padding:20px 5% 0px 5%
+}
+
+.category-nav ul{
+    list-style: none;
+    padding:0
+}
+.category-nav ul a{
+    font-size: 1.25rem;
+}
+
+.list-content{
+    width:70%;
+    float:left;
+}
+
+@media only screen and (max-width: 719px) {
+    .category-nav{
+        float:none;
+        width:100%;
+        text-align: center;
+        padding:0;
+    }
+
+    .category-nav ul li{
+        display: inline-block
+    }
+    .list-content{
+    width:100%;
+    float:none;
+    }
+}
