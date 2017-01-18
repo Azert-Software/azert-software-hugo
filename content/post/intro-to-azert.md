@@ -1,11 +1,10 @@
 +++
-date = "2017-01-14T21:00:31Z"
-title = "Welcome to Azert"
-draft = false
-categories = ["Azert"]
 author = "Mark Smith"
-+++
+categories = ["Azert"]
+date = "2017-01-14T21:00:31+00:00"
+title = "Welcome to Azert"
 
++++
 Azert is a new blog by Software Developer Mark Smith who lives in Northern Ireland.
 
 I aim to post how to articles, articles solving problems I've came across and hopefully other bits of coding information people may find useful.
@@ -29,7 +28,7 @@ In this role I touch on many technologies, including:
 
  I am also father to two girls, have been living with my partner for nearly 10 years and have too many hobbies, including the latest which is microlight flying!
 
- # The blog
+# The blog
 
  I had a previous version of this written using [Ghost.io](https://ghost.io) early 2016, but I enjoyed the building of the site more than the thought of blogging so it sat dormat for many months. Around this time, I'd came across static sites but I had already the work done so thought I could revist. Well, fast forward to now and I've since lost half the code in the great hard drive wipe of 2016 and I'd not pushed the final code to GitHub (doh!).
 

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Azert Software</title>
+    <link>http://azert-software.github.io/index.xml</link>
+    <description>Recent content on Azert Software</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>Azert Software 2017</copyright>
+    <lastBuildDate>Sat, 14 Jan 2017 21:00:31 +0000</lastBuildDate>
+    <atom:link href="http://azert-software.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Welcome to Azert</title>
+      <link>http://azert-software.github.io/post/intro-to-azert/</link>
+      <pubDate>Sat, 14 Jan 2017 21:00:31 +0000</pubDate>
+      
+      <guid>http://azert-software.github.io/post/intro-to-azert/</guid>
+      <description>
+
+&lt;p&gt;Azert is a new blog by Software Developer Mark Smith who lives in Northern Ireland.&lt;/p&gt;
+
+&lt;p&gt;I aim to post how to articles, articles solving problems I&amp;rsquo;ve came across and hopefully other bits of coding information people may find useful.&lt;/p&gt;
+
+&lt;p&gt;I will also be using the site to showcase some personal projects I may publish to GitHub. This site is created with the simple aim of spreading knowledge, as well as to help me gleam knowledge from the wider internet. Certainly, if you come across some code, or solution I post and you think there is a better way, use the comment section to let me know. Constructive criticism is always welcome here!&lt;/p&gt;
+
+&lt;h1 id=&#34;about-me&#34;&gt;About me&lt;/h1&gt;
+
+&lt;p&gt;I work at Intelligent Environments in the Product Team driving our platform forward to make the end user developer experience as seamless, joyful and fast as possible.&lt;/p&gt;
+
+&lt;p&gt;In this role I touch on many technologies, including:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;GoLang&lt;/li&gt;
+&lt;li&gt;C#&lt;/li&gt;
+&lt;li&gt;NoSql (Couchbase)&lt;/li&gt;
+&lt;li&gt;Javascript&lt;/li&gt;
+&lt;li&gt;Linux&lt;/li&gt;
+&lt;li&gt;and many others&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Expect this blog to cover all of the above and more!&lt;/p&gt;
+
+&lt;p&gt;I am also father to two girls, have been living with my partner for nearly 10 years and have too many hobbies, including the latest which is microlight flying!&lt;/p&gt;
+
+&lt;p&gt;# The blog&lt;/p&gt;
+
+&lt;p&gt;I had a previous version of this written using &lt;a href=&#34;https://ghost.io&#34;&gt;Ghost.io&lt;/a&gt; early 2016, but I enjoyed the building of the site more than the thought of blogging so it sat dormat for many months. Around this time, I&amp;rsquo;d came across static sites but I had already the work done so thought I could revist. Well, fast forward to now and I&amp;rsquo;ve since lost half the code in the great hard drive wipe of 2016 and I&amp;rsquo;d not pushed the final code to GitHub (doh!).&lt;/p&gt;
+
+&lt;p&gt;With this in mind I decided to revisit the static site idea and came across a few different options before settling on &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;. This is an insanely fast, dependency free, static site generator built in GoLang and i&amp;rsquo;ve found it great to use so far so expect a tutorial in the near future!&lt;/p&gt;
+
+&lt;p&gt;I would not consider this blog finished at this stage, but from an MVP stand point it&amp;rsquo;s good enough, so expect to see some improvements come as time passes.&lt;/p&gt;
+
+&lt;p&gt;# Contacting me&lt;/p&gt;
+
+&lt;p&gt;You can contact me through &lt;a href=&#34;https://twitter.com/azert-software&#34;&gt;Twitter&lt;/a&gt; or &lt;a href=&#34;https://GitHub.com/azert-software&#34;&gt;GitHub&lt;/a&gt; or leave a comment on this site of course.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
