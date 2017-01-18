@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = https://git@github.com/Azert-Software/azert-software.github.io.git
+	branch = master
