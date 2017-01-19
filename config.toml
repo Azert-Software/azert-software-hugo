@@ -1,57 +1,42 @@
 baseurl = "http://azert-software.github.io/"
-languageCode = "en-gb"
-title = "Azert Software"
-# Define how many pages appear per site
-paginate = 20
-# Enable comments powered by Disqus by entering your disqus shortname
 disqusShortname = "azertsoftware"
-# Enable gogle analytics by entering your tracking code
 googleAnalytics = ""
-theme = "hugo-minimalist-theme"
+languageCode = "en-gb"
+paginate = 20
 sectionPagesMenu = "main"
-
-[taxonomies]
-  category = "categories"
-  tag = "tags"
-  series = "series"
-
-[params]
-    site_author = "Mark Smith"
-    site_description = "Code, projects and research."
-    location = "Northern Ireland"
-    # Link custom assets relative to /static
-    avatar = "img/profile.jpg"
-    header_background = "img/Azert-Logo-White.png"
-    header_title = "Welcome to Azert Software"
-    copyright = "Azert Software 2017"
-    custom_css = ["css/site.css"]
-    custom_js  = []
-
-    # Enable gogle analytics by entering your tracking code
-    google_analytics = ""
-
-[social]
-    # Add your social network accounts to the profile section on the left
-    # by entering your username. The links to your account will be
-    # create automatically.
-    twitter   = "azertsoftware"
-    facebook  = ""
-    linkedin  = ""
-    behance   = ""
-    dribbble  = ""
-    instagram = ""
-    github    = "azert-software"
-    gplus     = ""
-
+theme = "hugo-minimalist-theme"
+title = "Azert Software"
 [[menu.main]]
-        weight = -5
-        name = "Projects"
-        identifier = "project"
-        url = "/project/"
-
- [[menu.main]]
-        weight = -100
-        name = "Posts"
-        identifier = "post"
-        url = "/post"
-
+identifier = "post"
+name = "Posts"
+url = "/post"
+weight = -100
+[[menu.main]]
+identifier = "project"
+name = "Projects"
+url = "/project/"
+weight = -5
+[params]
+avatar = "img/profile.jpg"
+copyright = "Azert Software 2017"
+custom_css = ["css/site.css"]
+custom_js = []
+google_analytics = "UA-90613114-1"
+header_background = "img/Azert-Logo-White.png"
+header_title = "Welcome to Azert Software"
+location = "Northern Ireland"
+site_author = "Mark Smith"
+site_description = "Code, projects and research."
+[social]
+behance = ""
+dribbble = ""
+facebook = ""
+github = "azert-software"
+gplus = ""
+instagram = ""
+linkedin = ""
+twitter = "azertsoftware"
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
