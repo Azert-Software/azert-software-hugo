@@ -7,7 +7,7 @@ title = "Azert delivers NiMicrolights website"
 +++
 I have created a new website for local microlight training school [NiMicrolights.co.uk](www.nimicrolights.co.uk).
 
-A full write up of the project can be found over at the project page via the following [link](/project/nimicrolights-website/) . This was a really enjoyable project for me, aircraft and flying being a real passion of mine. I managed this entire project in the evenings over about 5 nights, not bad I don't think!
+A full write up of the project can be found over at the project page via the following [link](/project/nimicrolights-website/) . This was a really enjoyable project for me, aircraft and flying being a real passion of mine. I managed this entire project in the evenings over about 5 nights!
 
 It is built using the same tech stack as this blog:
 
