@@ -7,15 +7,15 @@ sectionPagesMenu = "main"
 theme = "hugo-minimalist-theme"
 title = "Azert Software"
 [[menu.main]]
-identifier = "post"
-name = "Posts"
-url = "/post"
-weight = -100
-[[menu.main]]
 identifier = "project"
 name = "Projects"
 url = "/project/"
-weight = -5
+weight = 1
+[[menu.main]]
+identifier = "post"
+name = "Posts"
+url = "/post"
+weight = 0
 [params]
 avatar = "img/profile.jpg"
 copyright = "Azert Software 2017"
