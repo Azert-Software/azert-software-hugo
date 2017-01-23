@@ -1,6 +1,6 @@
 baseurl = "http://azert-software.github.io/"
 disqusShortname = "azertsoftware"
-googleAnalytics = ""
+googleAnalytics = "UA-90613114-1"
 languageCode = "en-gb"
 paginate = 20
 sectionPagesMenu = "main"
