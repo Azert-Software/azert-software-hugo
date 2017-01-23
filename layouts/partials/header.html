@@ -7,6 +7,7 @@
         <meta name="azert-software">
         <meta name="description" content="{{ .Site.Params.site_description }}">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="google-site-verification" content="ykUs2yKT8eEzxvdBI3Ukm-IWol00dvXkht97Ou1pno0" />
         {{ .Hugo.Generator }}
         <link href="{{ "post/index.xml" | absURL }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
         <link href="{{ "post/index.xml" | absURL }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}" />
@@ -16,6 +17,7 @@
         <link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | absURL }}" />
         <link rel="stylesheet" href="{{ "css/highlightjs/monokai.css" | absURL }}">
         <link rel="stylesheet" href="{{ "css/site.css" | absURL }}">
+        
         <script src="{{ "js/vendor/modernizr-2.8.0.min.js" | absURL }}"></script>
         {{ range .Site.Params.custom_css }}
         <link rel="stylesheet" href="{{ . | absURL }}">
