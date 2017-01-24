@@ -10,12 +10,12 @@ title = "Azert Software"
 identifier = "project"
 name = "Projects"
 url = "/project/"
-weight = 1
+weight = 0
 [[menu.main]]
 identifier = "post"
 name = "Posts"
 url = "/post"
-weight = 0
+weight = 1
 [params]
 avatar = "img/profile.jpg"
 copyright = "Azert Software 2017"
