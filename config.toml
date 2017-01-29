@@ -1,6 +1,6 @@
 baseurl = "http://www.azert.co.uk"
 disqusShortname = "azertsoftware"
-googleAnalytics = "UA-90613114-1"
+googleAnalytics = "UA-91073756-1"
 languageCode = "en-gb"
 paginate = 20
 sectionPagesMenu = "main"
@@ -21,7 +21,7 @@ avatar = "img/profile.jpg"
 copyright = "Azert Software 2017"
 custom_css = ["css/site.css"]
 custom_js = []
-google_analytics = "UA-90613114-1"
+google_analytics = "UA-91073756-1"
 header_background = "img/Azert-Logo-White.png"
 header_title = "Welcome to Azert Software"
 location = "Northern Ireland"
