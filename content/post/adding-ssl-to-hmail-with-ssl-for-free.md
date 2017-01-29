@@ -5,7 +5,7 @@ date = "2017-01-25T13:05:31+00:00"
 title = "Adding SSL to HMail with SSL For Free"
 
 +++
-# What is SSL For Free
+# What is SSL For Free?
 
 I<span style="letter-spacing: 0.01em;"> run a private mail server on using a t1.micro Windows server on AWS using HMail as the mail server. This serves my @azert.co.uk emails and so far has proved to be extremely reliable, despite the small size of the server. I was running an m3.medium at one stage but it cost a fortune so that didn't last very long!</span>
 
